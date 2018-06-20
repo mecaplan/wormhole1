@@ -9,7 +9,10 @@ var UI              = require("./ui");
 
 var container = document.querySelector('#main');
 
-var wormholeSpace = new WormholeSpace(1.4, 5);
+var wormholeSpace = new WormholeSpace(0.4, 5);
+//  var wormholeSpace = new WormholeSpace(1.4, 5); // Original Parameters for (Radius, Throat Radius)
+
+
 
 var player = new Player(wormholeSpace);
 
