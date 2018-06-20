@@ -12,7 +12,7 @@ function WormholeGeometry(space, min, max)
 WormholeGeometry.prototype = Object.create(THREE.Geometry.prototype);
 
 WormholeGeometry.prototype._build = function(min, max) {
-  var xSegments = 80,
+  var xSegments = 32,
       ySegments = 32,
       xSegmentSize = (max - min) / xSegments,
       ySegmentSize = Math.PI * 2 / ySegments;
