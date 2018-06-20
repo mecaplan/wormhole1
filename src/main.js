@@ -16,7 +16,10 @@ var wormholeSpace = new WormholeSpace(0.1, 1);
 
 var player = new Player(wormholeSpace);
 
-var maxX = wormholeSpace.radius * 4 + wormholeSpace.throatLength;
+var maxX = wormholeSpace.radius * 10 + wormholeSpace.throatLength;
+// var maxX = wormholeSpace.radius * 4 + wormholeSpace.throatLength; // Original Parameters for maxX
+
+
 
 var playerX = wormholeSpace.radius * 2 + wormholeSpace.throatLength;
 
