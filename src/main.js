@@ -9,15 +9,14 @@ var UI              = require("./ui");
 
 var container = document.querySelector('#main');
 
-var wormholeSpace = new WormholeSpace(0.1, 1);
+var wormholeSpace = new WormholeSpace(1.4, 1);
 //  var wormholeSpace = new WormholeSpace(1.4, 5); // Original Parameters for (Radius, Throat Radius)
 
 
 
 var player = new Player(wormholeSpace);
 
-var maxX = wormholeSpace.radius * 10 + wormholeSpace.throatLength;
-// var maxX = wormholeSpace.radius * 4 + wormholeSpace.throatLength; // Original Parameters for maxX
+var maxX = wormholeSpace.radius * 4 + wormholeSpace.throatLength; // Original Parameters for maxX
 
 
 
